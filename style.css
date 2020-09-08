@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+#container{
+    display: flex;
+   flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+}
+.bar{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    text-align: center;
+    background-color: black;
+    width: 190%;
+    height: 60px;
+    margin-left: 700px;
+
+}
+a{
+    text-decoration: none;
+    color:white ;
+}
+#a{
+    background-color: yellow;
+    padding: 5px;
+    color: deeppink;
+}
+img{
+    width: 100%;
+    height:100%;
+}
+#about{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.solidbackgrounds.com%2Fimages%2F1024x600%2F1024x600-brilliant-lavender-solid-color-background.jpg&f=1&nofb=1');
+    background-size: 100% 100%;
+}
+#trailer{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FiNURoIO.jpg&f=1&nofb=1');
+}
